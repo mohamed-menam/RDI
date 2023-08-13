@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+drf-extra-fields = "*"
+djangorestframework = "*"
+pillow = "*"
+pypdf2 = "==2"
+pdf2image = "*"
+opencv-contrib-python = "*"
+opencv-python = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
